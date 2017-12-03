@@ -1,14 +1,4 @@
 
-/* Tablet Landscape */
-@media screen and (max-width: 1060px) {
-    #primary { width:67%; }
-    #secondary { width:30%; margin-left:3%;}  
-}
-/* Tabled Portrait */
-@media screen and (max-width: 768px) {
-    #primary { width:80%; }
-    #secondary { width:100%; margin:0; border:none; }
-}
 
 
 {
@@ -67,14 +57,16 @@ h1 {
   margin: 20px;
 }
 
-.maingradient {
-	
+/*********************************************/
+/*         Graphics for home page            */
+/*********************************************/
+
+.maingradient { /* container for circles */
 	height:700px;
 	width:100%;
 	overflow:hidden;
 	background:linear-gradient(#fefefe, gray);
 }
-
 
 @-webkit-keyframes fade-in{
 from{
@@ -115,17 +107,6 @@ top:0px;
 -webkit-animation:fade-in 19s infinite;
 }
 
-/*.sphere {
-  height: 200px;
-  width: 200px;
-  border-radius: 50%;
-  text-align: center;
-  vertical-align: middle;
-  font-size: 500%;
-  position: relative;
-  display: inline-block;
-  margin: 5%;
-}*/
 .circle {
 	background:repeating-radial-gradient(
 		circle,
@@ -140,9 +121,18 @@ top:0px;
 	height: 1000px;
 	border-radius: 50%;
 }
-
+/*
 a {
-	font-size:20px; 
-	text-decoration:none;
+  color: #0044cc; 
+}
+
+a:visited{
+  color: #ababab;
+}
+*/
+a {
+  color: white;
+  font-size:20px; 
+  text-decoration:none;
 }		
 
