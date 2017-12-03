@@ -67,38 +67,82 @@ h1 {
     padding:0px;
 }
 
-.event {
-    border-radius:4px;
-    -webkit-border-radius:4px;
-    color:#FFFFFF;
-    font-size:12px;
-    margin:0px 30px;
-    padding:2px 0px;
+.maingradient {
+	
+	height:700px;
+	width:100%;
+	overflow:hidden;
+	background:linear-gradient(#fefefe, gray);
 }
 
-.event.listening {
-    background-color:#333333;
-    display:block;
+
+@-webkit-keyframes fade-in{
+from{
+    opacity:1;
+    top:0px;
+}
+to{
+    opacity:0;
+    top:-5px;
+}
 }
 
-.event.received {
-    background-color:#4B946A;
-    display:none;
+.text-animated-one{
+display:inline;
+position:relative;
+top:0px;
+-webkit-animation:fade-in 5s infinite;
 }
 
-@keyframes fade {
-    from { opacity: 1.0; }
-    50% { opacity: 0.4; }
-    to { opacity: 1.0; }
+.text-animated-two{
+display:inline;
+position:relative;
+top:0px;
+-webkit-animation:fade-in 7s infinite;
 }
- 
-@-webkit-keyframes fade {
-    from { opacity: 1.0; }
-    50% { opacity: 0.4; }
-    to { opacity: 1.0; }
+
+.text-animated-three{
+display:inline;
+position:relative;
+top:0px;
+-webkit-animation:fade-in 13s infinite;
 }
- 
-.blink {
-    animation:fade 3000ms infinite;
-    -webkit-animation:fade 3000ms infinite;
+
+.text-animated-four{
+display:inline;
+position:relative;
+top:0px;
+-webkit-animation:fade-in 19s infinite;
 }
+
+/*.sphere {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 500%;
+  position: relative;
+  display: inline-block;
+  margin: 5%;
+}*/
+.circle {
+	background:repeating-radial-gradient(
+		circle,
+		green, 
+		green 300px,
+		#ff0080 300px, 
+		#ff0080 600px);						  	
+	
+	margin-top:-425px;
+	margin-left:-425px;	
+	width: 1000px;
+	height: 1000px;
+	border-radius: 50%;
+}
+
+a {
+	font-size:20px; 
+	text-decoration:none;
+}		
+
