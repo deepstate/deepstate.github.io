@@ -214,10 +214,14 @@ a:visited{
   color: #ababab;
 }
 */
-a {
-  color: white;
+a { 
+  color:#ababab;
   font-size:20px; 
   font-weight:bold;
   text-decoration:none;
-}		
+}	
+
+a.illustrate {
+  color: white;
+}
 
