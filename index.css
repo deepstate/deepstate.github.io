@@ -54,6 +54,13 @@ body {
     height: 100%;
 }
 
+.showBar, .showBar1, .showBar2, .showBar3, .showBar4, .showBar5 {
+  width: 100%;
+  background-color:#d0d0d0;
+  padding: 10px 10px;
+  margin-top: 2px;
+}
+
 #header {
   color: #acacac;
   text-align:left;
