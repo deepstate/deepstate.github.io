@@ -23,29 +23,48 @@ body {
 	text-align: center;
 }
 
-/* Portrait layout (default) */
-.app {
-    background:url(../img/logo.png) no-repeat center top; /* 170px x 200px */
-    position:absolute;             /* position in the center of the screen */
-    left:50%;
-    top:50%;
-    height:50px;                   /* text area height */
-    width:225px;                   /* text area width */
-    text-align:center;
-    padding:180px 0px 0px 0px;     /* image height is 200px (bottom 20px are overlapped with text) */
-    margin:-115px 0px 0px -112px;  /* offset vertical: half of image height and text area height */
-                                   /* offset horizontal: half of text area width */
+#header {
+  width: 100%;
+  color: #acacac;
+  text-align:left;
 }
 
+.container {
+  max-width: 800px;
+  /*padding: 0px, 30%, 0, 30%;*/
+  margin: 3em;
+  text-align:center;
+}
+
+.content: {
+  /*width: 100%*/
+  text-align:left;
+}
+
+/* Portrait layout (default) */
+/*
+.app {
+    background:url(../img/logo.png) no-repeat center top; 
+    position:absolute;             
+    left:50%;
+    top:50%;
+    height:50px;                   
+    width:225px;                   
+    text-align:center;
+    padding:180px 0px 0px 0px;     
+    margin:-115px 0px 0px -112px;                                  
+}
+*/
 /* Landscape layout (with min-width) */
+/*
 @media screen and (min-aspect-ratio: 1/1) and (min-width:400px) {
     .app {
         background-position:left center;
-        padding:75px 0px 75px 170px;  /* padding-top + padding-bottom + text area = image height */
-        margin:-90px 0px 0px -198px;  /* offset vertical: half of image height */
-                                      /* offset horizontal: half of image width and text area width */
+        padding:75px 0px 75px 170px;  
+        margin:-90px 0px 0px -198px;                                       
     }
 }
+*/
 
 .video-container iframe {
     position: relative;	
@@ -69,11 +88,6 @@ button {
   background-color: #ececec;
 }
 
-#header {
-  color: #acacac;
-  text-align:left;
-}
-
 /* Headings */
 h1,
 h2,
@@ -86,16 +100,8 @@ h6 {
     font-family: Lora, Georgia, serif;
     font-weight: 700;
     margin: .25em 0 1.25em;
+	text-align:left;
 }
-/*
-h1 {
-    font-size:24px;
-    font-weight:normal;
-	overflow:visible;
-    margin:0px; 
-    padding:0px;
-}
-*/
 
 /* horizontal rule */
 hr.lite {
@@ -155,18 +161,13 @@ blockquote cite {
 /* Posts */
 p {
     font-family: serif;
-	font-size:12px;
+	font-size:14px;
     line-height: 1.40;
     margin-right: 6px;
     margin-bottom: 0;
+	text-align:left;
 }
 
-.container {
-  max-width: 800px;
-  /*padding: 0px, 30%, 0, 30%;*/
-  margin: 3em;
-  text-align:center;
-}
 
 /*********************************************/
 /*         Graphics for home page            */
