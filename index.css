@@ -16,7 +16,7 @@ body {
     font-family: Merriweather, Georgia, serif;
     font-size:12px;
     height:100%;
-    margin:0px;
+    margin:20px;
     padding:0px;
     /*text-transform:uppercase;*/
     width:100%;
@@ -31,14 +31,26 @@ body {
 
 .container {
   max-width: 800px;
+  /*border:1px solid red;*/
   /*padding: 0px, 30%, 0, 30%;*/
-  margin: 3em;
+  /*margin: 3em;*/
   text-align:center;
+  /* centers div on page */
+  position: absolute;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  padding: 20px;
 }
 
 .content: {
-  /*width: 100%*/
+  width: 100%;
+  border:1px solid black;
   text-align:left;
+  position: absolute;
+  
 }
 
 /* Portrait layout (default) */
