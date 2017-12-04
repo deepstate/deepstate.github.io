@@ -4,6 +4,7 @@ html {
     font-size: 62.5%;
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust:     100%;
+	text-align: center;
 }
 
 {
@@ -19,6 +20,7 @@ body {
     padding:0px;
     /*text-transform:uppercase;*/
     width:100%;
+	
 }
 
 /* Portrait layout (default) */
@@ -160,8 +162,10 @@ p {
 }
 
 .container {
-  padding: 0px, 30%;
+  max-width: 800px;
+  /*padding: 0px, 30%, 0, 30%;*/
   margin: 3em;
+  text-align:left;
 }
 
 /*********************************************/
