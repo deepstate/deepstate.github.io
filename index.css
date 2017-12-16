@@ -166,6 +166,10 @@ p {
 	text-align:left;
 }
 
+sup {
+  font-size:8px;
+}
+
 ol {
   text-align:left;
 }
